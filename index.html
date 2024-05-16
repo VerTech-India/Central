@@ -2,7 +2,38 @@
 <html lang="en">
 
   <head>
+    <style type="text/css">
 
+        .left-content
+        {
+            padding-bottom: 20px;
+        }
+        #logonav {
+            width: 150px;
+            max-width: 200px;
+            height: auto;
+            transition: width 0.5s ease;
+        }
+
+        @media screen and (max-width: 600px) {
+            #logonav {
+                width: 100px;
+            }
+           .logo{
+            line-height: 30px;
+           }
+          h4 {
+            font-size: 20px;
+          }
+        .left-content {
+            padding-bottom: 200px;
+            width: 100%;
+        }
+        .inner-content {
+            padding: 50px;
+        }
+        }
+    </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -12,7 +43,7 @@
 
     <title>Central Store</title>
 <!--
-    
+
 
 
 -->
@@ -50,8 +81,7 @@
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="index.html" class="logo">
-                            <img src="/Central/assets/images/a1-removebg-preview.png" align="klassy cafe html template" alt="central" style="height: 80px; width: 150px;">
-                        </a>
+                            <img id = "logonav"  src="/Central/assets/images/a1-removebg-preview.png" align="klassy cafe html template" alt="central" >
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
@@ -91,10 +121,10 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-4">
-                    <div class="left-content">
+                    <div class="left-content" >
                         <div class="inner-content">
                             <h4>Central Store</h4>
-                            <h6>Your One-Stop Shop for Quality and Convenience!</h6>
+                   
                             <div class="main-white-button scroll-to-section">
                                 <a href="https://wa.me/9619506999" target="_blank">Buy Product</a>
                             </div>
